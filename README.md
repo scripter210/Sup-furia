@@ -1,4 +1,3 @@
--- Criar o painel
 local painel = Instance.new("Frame")
 painel.Size = UDim2.new(0, 300, 0, 200)
 painel.Position = UDim2.new(0.5, -150, 0.5, -100)
@@ -32,4 +31,3 @@ fechar.Parent = painel
 -- Evento de fechar
 fechar.MouseButton1Click:Connect(function()
 	painel:Destroy()
-end)
